@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
   }
+
+  body{
+    overflow-x: hidden;
+  }
   
   a,li{
     text-decoration: none;
