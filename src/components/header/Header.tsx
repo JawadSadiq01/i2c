@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Hamburger, Logo } from "../../assets/images"
 import "./Header.css"
+import ContactBtn from "../contactBtn/ContactBtn"
 const Header = () => {
   const [dropDown,setDropDown] = useState("")
   const handleDropDown = () => {
@@ -20,7 +21,7 @@ const Header = () => {
           <li>About us</li>
           <li>Registration</li>
           <li>Careers</li>
-          <li className="contactUs">Contact us</li>
+          <ContactBtn/>
         </ul>
       </div>
     </div>
