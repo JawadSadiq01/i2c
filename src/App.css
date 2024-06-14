@@ -1,0 +1,23 @@
+#root{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ebf0ff;
+  padding: 4em 7.5em;
+}
+/* MediaQueries */
+
+@media (max-width: 1024px) {
+  #root{
+    padding: 2em 3.75em;
+  }
+}
+@media (max-width: 640px) {
+  #root{
+    padding: 1em 1.875em;
+  }
+}
+@media (max-width: 425px) {
+  #root{
+    padding: 0.5em 0.9375em;
+  }
+}
