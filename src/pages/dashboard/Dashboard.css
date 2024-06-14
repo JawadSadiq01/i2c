@@ -38,7 +38,7 @@
 
 /* Media Queries */
 
-@media (max-width:1400px) {
+ @media (max-width:1340px) {
   .heroRight img{
     width: 480px;
   }
@@ -53,6 +53,10 @@
   }
 }
 @media (max-width:1024px) {
+  .heroLeft{
+    width: 100%;
+  }
+
   .heroRight{
     display: none;
   }

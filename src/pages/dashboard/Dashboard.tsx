@@ -1,9 +1,9 @@
 // src/pages/Dashboard.tsx
 import React from "react";
 import "./Dashboard.css";
-import { Header, HeroCard } from "../../components";
-import { CardImg1, CardImg2, CardImg3, HeroImage, IntroUnderline } from "../../assets/images";
-import { HeroCardData } from "../../types";
+import { Header, HeroCard, MoreDetails } from "../../components";
+import { CardImg1, CardImg2, CardImg3, HeroImage, IntroUnderline, PadLoack, Statistics, Trophy } from "../../assets/images";
+import { HeroCardData, MoreDetailData } from "../../types";
 
 const heroCardData: HeroCardData[] = [
   {
@@ -20,6 +20,23 @@ const heroCardData: HeroCardData[] = [
     image: CardImg3,
     name: "Andrew Schultz",
     detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.",
+  }
+];
+const moreDetailData: MoreDetailData[] = [
+  {
+    image: PadLoack,
+    name: "24/7 Support",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    image: Statistics,
+    name: "1000+ reviews",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    image: Trophy,
+    name: "And more!",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   }
 ];
 
@@ -47,6 +64,7 @@ const Dashboard: React.FC = () => {
           <img src={HeroImage} alt="" />
         </div>
       </div>
+      <MoreDetails data={moreDetailData}/>
     </>
   );
 };

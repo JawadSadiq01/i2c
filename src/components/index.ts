@@ -2,3 +2,4 @@ export { default as Header } from './header/Header'
 export { default as Footer } from './footer/Footer' 
 export { default as ContactBtn } from "./contactBtn/ContactBtn"
 export { default as HeroCard } from "./heroCard/HeroCard"
+export { default as MoreDetails } from "./moreDetails/MoreDetails"
