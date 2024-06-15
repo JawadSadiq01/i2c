@@ -19,6 +19,7 @@ import {
   Statistics,
   Trophy,
   RegImage,
+  Background,
 } from "../../assets/images";
 import { HeroCardData, MoreDetailData } from "../../types";
 
@@ -62,43 +63,49 @@ const moreDetailData: MoreDetailData[] = [
 
 const Dashboard: React.FC = () => {
   return (
-    <>
-      <Header />
-
-      <div className="heroSection">
-        <div className="heroLeft">
-          <p className="heroHeading">
-            Lorem ipsum{" "}
-            <span className="formatted">
-              dolor
-              <img src={IntroUnderline} alt="" />
-            </span>{" "}
-            sit amet yo 👋
-          </p>
-
-          <HeroCard data={heroCardData} />
-        </div>
-
-        <div className="heroRight">
-          <img src={HeroImage} alt="" />
-        </div>
+    <div className="dashboard">
+      <div className="bg">
+        <img src={Background} alt="" />
       </div>
 
-      <MoreDetails data={moreDetailData} />
+      <div className="content">
+        <Header />
 
-      <TrustedBy />
+        <div className="heroSection">
+          <div className="heroLeft">
+            <p className="heroHeading">
+              Lorem ipsum{" "}
+              <span className="formatted">
+                dolor
+                <img src={IntroUnderline} alt="" />
+              </span>{" "}
+              sit amet yo 👋
+            </p>
 
-      <div className="regSection">
-        <div className="regLeft">
-          <img src={RegImage} alt="" />
+            <HeroCard data={heroCardData} />
+          </div>
+
+          <div className="heroRight">
+            <img src={HeroImage} alt="" />
+          </div>
         </div>
-        <div className="regRight">
-         <RegForm/>
+
+        <MoreDetails data={moreDetailData} />
+
+        <TrustedBy />
+
+        <div className="regSection">
+          <div className="regLeft">
+            <img src={RegImage} alt="" />
+          </div>
+          <div className="regRight">
+            <RegForm />
+          </div>
         </div>
+
+        <Footer />
       </div>
-
-      <Footer />
-    </>
+    </div>
   );
 };
 

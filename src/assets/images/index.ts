@@ -1,3 +1,4 @@
+import Background from "./dashBoard/Background.svg"
 import Logo from "./dashBoard/Logo.svg"
 import Hamburger from "./dashBoard/Hamburger.svg"
 import  HeroImage from "./dashBoard/HeroImage.svg"
@@ -16,6 +17,7 @@ import ChevronRight from "./dashBoard/ChevronRight.svg"
 import RegImage from "./dashBoard/RegImage.svg"
 
 export {
+  Background,
   Logo,
   Hamburger,
   HeroImage,
