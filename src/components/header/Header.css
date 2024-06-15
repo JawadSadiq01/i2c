@@ -13,23 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2em;
+  gap: 1.8em;
 }
 
 .headerLinks li{
   font-size: 1em;
   color: #515151;
-}
-
-@keyframes dropdown {
-  0% {
-    height: 0;
-    visibility: 0;
-  }
-  100%{
-    height: fit-content;
-    visibility: 1;
-  }
 }
 
 

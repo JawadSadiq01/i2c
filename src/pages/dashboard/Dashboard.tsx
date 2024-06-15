@@ -1,7 +1,7 @@
 // src/pages/Dashboard.tsx
 import React from "react";
 import "./Dashboard.css";
-import { Header, HeroCard, MoreDetails, TrustedBy } from "../../components";
+import { Header, HeroCard, MoreDetails, TrustedBy, Footer } from "../../components";
 import { CardImg1, CardImg2, CardImg3, HeroImage, IntroUnderline, PadLoack, Statistics, Trophy } from "../../assets/images";
 import { HeroCardData, MoreDetailData } from "../../types";
 
@@ -66,6 +66,7 @@ const Dashboard: React.FC = () => {
       </div>
       <MoreDetails data={moreDetailData}/>
       <TrustedBy/>
+      <Footer/>
     </>
   );
 };

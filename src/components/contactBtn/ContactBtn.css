@@ -6,10 +6,13 @@
   padding: 1em 2em;
   font-size: 1em;
   border-radius: 40px;
+  font-weight: 600;
 }
 
 @media (max-width:768px) {
   .contactUs {
     font-size: 14px;
+    filter: drop-shadow(0 10px 20px #46b1e6);
   }
+
 }
