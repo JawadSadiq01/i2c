@@ -8,6 +8,11 @@ import  CardImg3 from "./dashBoard/CardImg3.svg"
 import  PadLoack from "./dashBoard/Padlock.svg"
 import  Statistics from "./dashBoard/Statistics.svg"
 import  Trophy from "./dashBoard/Trophy.svg"
+import Microsoft from "./dashBoard/Microsoft.svg"
+import Twitter from "./dashBoard/Twitter.svg"
+import CocaCola from "./dashBoard/CocaCola.svg"
+import ChevronLeft from "./dashBoard/ChevronLeft.svg"
+import ChevronRight from "./dashBoard/ChevronRight.svg"
 
 export {
   Logo,
@@ -19,5 +24,10 @@ export {
   CardImg3,
   PadLoack,
   Statistics,
-  Trophy
+  Trophy,
+  Microsoft,
+  Twitter,
+  CocaCola,
+  ChevronLeft,
+  ChevronRight
 }

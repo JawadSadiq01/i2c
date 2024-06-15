@@ -53,12 +53,17 @@
   }
 }
 @media (max-width:1024px) {
+  .heroSection{
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
+
   .heroLeft{
     width: 100%;
   }
 
-  .heroRight{
-    display: none;
+  .heroRight, .heroRight img{
+    width: 96%;
   }
 
   .heroHeading{
