@@ -12,7 +12,7 @@
 @media (max-width:768px) {
   .contactUs {
     font-size: 14px;
-    filter: drop-shadow(0 10px 20px #46b1e6);
+    filter: drop-shadow(0 8px 10px #46b1e6);
   }
 
 }

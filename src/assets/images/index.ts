@@ -13,6 +13,7 @@ import Twitter from "./dashBoard/Twitter.svg"
 import CocaCola from "./dashBoard/CocaCola.svg"
 import ChevronLeft from "./dashBoard/ChevronLeft.svg"
 import ChevronRight from "./dashBoard/ChevronRight.svg"
+import RegImage from "./dashBoard/RegImage.svg"
 
 export {
   Logo,
@@ -29,5 +30,6 @@ export {
   Twitter,
   CocaCola,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  RegImage
 }

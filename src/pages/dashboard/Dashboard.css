@@ -1,4 +1,4 @@
-.heroSection{
+.heroSection {
   margin-top: 6.25em;
   width: 100%;
   display: flex;
@@ -6,79 +6,117 @@
   gap: 1em;
 }
 
-.heroLeft{
+.heroLeft {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   gap: 3.2em;
 }
 
-.heroHeading{
+.heroHeading {
   font-size: 48px;
   font-weight: bold;
 }
-.formatted{
+
+.formatted {
   font-weight: bold;
   color: #46b0e6;
   position: relative;
 
 }
-.heroHeading img{
+
+.heroHeading img {
   position: absolute;
   left: 0;
   bottom: -4px;
   width: 100%;
 }
 
-.heroRight{
+.heroRight {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.regSection {
+  margin-top: 6.25em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.regLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.regRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Media Queries */
 
- @media (max-width:1340px) {
-  .heroRight img{
+@media (max-width:1340px) {
+
+  .heroRight img,
+  .regLeft img {
     width: 480px;
   }
 }
+
 @media (max-width:1280px) {
+
   .heroRight img{
     width: 360px;
   }
 
-  .heroHeading{
+  .regLeft img {
+    width: 380px;
+  }
+
+  .heroHeading {
     font-size: 42px;
   }
 }
+
 @media (max-width:1024px) {
-  .heroSection{
+  .heroSection, .regSection {
     flex-direction: column-reverse;
     gap: 2em;
   }
 
-  .heroLeft{
+  .heroLeft,
+  .regRight {
     width: 100%;
   }
 
-  .heroRight, .heroRight img{
+  .heroRight,
+  .heroRight img,
+  .regLeft,
+  .regLeft img {
     width: 96%;
   }
 
-  .heroHeading{
+  .heroHeading {
     font-size: 36px;
   }
 }
 
 @media (max-width:768px) {
-.heroSection{
-  margin-top: 3em;
-}
+
+  .heroSection,
+  .regSection {
+    margin-top: 3em;
+  }
 }
 
 @media (max-width:640px) {
-  .heroHeading{
+  .heroHeading {
     font-size: 24px;
   }
 }
