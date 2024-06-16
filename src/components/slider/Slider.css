@@ -1,9 +1,8 @@
-/* Slider.css */
-
 .slider {
   position: relative;
   width: 100%;
   max-width: 1000px;
+  height: 100px;
   margin: auto;
   overflow: hidden;
 }
@@ -13,22 +12,24 @@
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 80%;
+  height:100%;
 }
 
 .slide {
   transition: opacity 0.5s ease-in-out;
-  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* opacity: 0; */
+
 }
 .slide img{
   max-width: 260px;
 }
 
-.slideActive {
+/* .slideActive {
   opacity: 1;
-}
+} */
 
 .slideButton {
   position: absolute;
